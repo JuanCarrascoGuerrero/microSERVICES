@@ -1,0 +1,11 @@
+<!--             <form action="/" th:action="@{/salachat}" th:object="${message}"
+                          method="post" id="messageForm" name="messageForm">
+                        <div class="form-group">
+                            <div class="input-group clearfix">
+                                <input th:type="hidden" th:field="${message.id}" >
+                                <input type="text" id="message" placeholder="Escribe un mensaje..." autocomplete="off" class="form-control"
+                                       th:field="${message.content}"/>
+                                <button type="submit" class="primary">Enviar</button>
+                            </div>
+                        </div>
+                    </form>-->

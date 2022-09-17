@@ -1,0 +1,15 @@
+1
+Cuando tenemos un único microservice podemos hardcodear la API url
+2
+Cuando hay mas de una instancia de un microservice tenemos multiples puertos
+SOLUCION: SERVICE DISCOVERY server
+3
+Discovery server: "Directorio" de microservicios circundantes (descripcion, información general en vivo)
+Microservicios como "clientes del DiscoveryServer
+Herramienta DisciveryService de Springboot -> SPRING CLOUD EUREKA
+4
+Spring Clod Config: Config Server para implementar cambios centralizados a todos los microservicios en los .properties, .yml, etc..
+Uso de un Git repository como almacen del codigo de configuracion centralizado a todos los microservicios.
+5
+Introducción del "refresh" al Spring Cloud Config para que al introducir cambios en los .properties centralizados los microservicios
+los incorporen sin necesidad de pararlos. (Actualización "on running")
